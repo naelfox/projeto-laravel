@@ -1,0 +1,169 @@
+*
+{
+    font-family: 'Poppins';
+}
+
+
+ul {
+    list-style: none;
+}
+body{
+    min-height: 1200px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+
+    border-bottom: 2px solid rgb(223, 223, 223);
+
+}
+.container-fluid{
+    padding: 0
+}
+
+.btn-primary{
+    background-color: tomato;
+    border: 2px solid tomato;
+}
+
+.btn-primary:hover{
+    background-color: tomato;
+    border-color: tomato;
+}
+
+.msg{
+    text-align: center;
+}
+
+
+.row{
+    margin: 0;
+}
+
+#navbar img {
+    width: 300px;
+    padding: 30px;
+}
+
+
+#navbar{
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px;
+}
+
+
+#navbar a {
+    font-size: 14px;
+    color: #d81f1f;
+
+}
+
+
+#navbar a:hover {
+    font-size: 14px;
+    color: #4d3e3e;
+
+}
+
+#busca-container{
+    background-image: url(/imagens/fundo1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#busca-container h1{
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 30px;
+    font-weight: 900px;
+}
+
+#busca-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#consultas-container{
+
+    display: inline-block;
+
+}
+
+#consultas-container h2{
+    margin-bottom: 10px;
+
+}
+
+
+#consultas-container .subtitulo{
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+#cards-container{
+    width: 25%;
+    padding: 20px;
+
+}
+
+#consultas-container .card{
+    border-radius: 10px;
+}
+
+#consultas-container img{
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.card .card-data{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-titulo{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+
+
+.card .card-medicos{
+    font-size: 14px;
+    color: #757575;
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form{
+    margin: auto;
+    padding: auto 500px;
+}
+
+
+#sistema-descricao{
+    position: relative;
+    right: 200px;
+    font-style: italic;
+    color: #A13C3C;
+
+
+}
+
